@@ -1,0 +1,21 @@
+{
+  "name": "wstestnode",
+  "version": "1.0.0",
+  "description": "Kinsta Test",
+  "main": "index.js",
+  "scripts": {
+    "server": "node server.js",
+    "client:local": "cross-env ENV_FILE=.env.local node client.js",
+    "client:remote": "cross-env ENV_FILE=.env.remote node client.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "ws": "^8.18.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
+}
