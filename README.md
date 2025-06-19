@@ -1,0 +1,2 @@
+# wsTestNode
+Kinsta Test
